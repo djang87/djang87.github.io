@@ -1,0 +1,13 @@
+- title: Home
+  href: index.html
+
+- title: Members
+  href: about.html
+
+- title: Publications
+  href: list/posts.html
+
+- title: Projects
+  href: list/projects.html
+
+
