@@ -1,0 +1,18 @@
+I"+<p>Authors: Changho Choi, Nohyun Kwak, Jinsoo Jang, <strong>Daehee Jang</strong> , Kuenwhee Oh, Kyungsoo Kwag, Brent Byunghoon Kang<br />
+<!--more-->
+<strong>Abstract:</strong>
+Intel recently introduced Software Guard Extensions (SGX) to enable applications to protect
+their selected code and data from privileged platform software. As it draws wider attention from the security research community, an open-source emulator for SGX (OpenSGX)
+has been developed to allow researchers to explore the SGX environment. To the best of
+our knowledge, OpenSGX is currently the only publicly available SGX emulation platform;
+however, its system-level support is largely limited owing to its user-mode emulation. In
+particular, experiments that require system functionalities or device emulation cannot be
+conducted with the current OpenSGX. To solve this problem, we propose System-OpenSGX
+(S-OpenSGX), which leverages QEMU’s system emulation to provide researchers with full
+system-level support for exploring SGX enclave-based programming. In this paper, we show
+the design of S-OpenSGX, including system functionalities such as scheduling, multithreading, page table handling, and SGX paging. Non-trivial issues derived from the difference
+between user-mode and system emulation, and our approaches to addressing them are also
+described. Lastly, we utilize S-OpenSGX to experiment with a new mitigation method against
+the data leaking attack on enclave threads and an APIC (Advanced Programmable Interrupt Controller) device modification to reduce SGX’s mode switch overhead.</p>
+
+:ET

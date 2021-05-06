@@ -1,0 +1,16 @@
+I"{<p>Authors: Valentin J.M. Manes, Daehee Jang, Brent Byunghoon Kang, Chanho Ryu<br />
+<!--more-->
+<strong>Abstract:</strong>
+Monolithic kernel is one of the prevalent configurations out of various kernel design models.
+While monolithic kernel excels in performance and management, they are unequipped for
+runtime system update; and this brings the need for kernel extension. Although kernel extensions are a convenient measure for system management, it is well established that they
+make the system prone to rootkit attacks and kernel exploitation as they share the single
+memory space with the rest of the kernel. To address this problem, various forms of isolation (e.g., making into a process), are so far proposed, yet their performance overhead is
+often too high or incompatible for a general purpose kernel. In this paper, we propose Domain
+Isolated Kernel (DIKernel), a new kernel architecture which securely isolates the untrusted
+kernel extensions with minimal performance overhead. DIKernel leverages hardwarebased memory domain feature in ARM architecture; and prevents system manipulation attacks
+originated from kernel extensions, such as rootkits and exploits caused by buggy kernel extensions.We implemented DIKernel on top of Linux 4.13 kernel with 1500 LOC. Performance
+evaluation indicates that DIKernel imposes negligible overhead which is observed by cycle
+level microbenchmark.</p>
+
+:ET

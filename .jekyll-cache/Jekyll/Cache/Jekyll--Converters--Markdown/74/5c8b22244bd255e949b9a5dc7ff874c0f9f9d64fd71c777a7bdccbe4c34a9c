@@ -1,0 +1,21 @@
+I"<p>Authors: <strong>Daehee Jang</strong>, Yunjong Jung, Sungman Lee, Minjoon Park, Donguk Kim, Kuenhwan Kwak, Brent Byunghoon Kang.<br />
+<!--more-->
+<strong>Abstract:</strong> 
+From the security perspective, emulation is often utilized to analyze unknown malware
+owing to its capability of tracing fine-grained runtime behavior (i.e., execution path exploration). To this end, attackers equip their malware with powerful anti-emulation techniques
+that fingerprint the emulated system environment, thereby avoiding dynamic analysis.
+However, this is not the only use case of anti-emulation. Recently, legitimate software
+vendors are also putting significant efforts to prevent their products running on top of
+the emulated execution environment. There are mainly two reasons for this which are:
+(i) securing the intellectual property from emulation-assisted reverse-engineering, and (ii)
+disallowing the customers using the application without purchasing the actual hardware.
+From the previous literature, various anti-emulation techniques were explored. Unfortunately, existing techniques are mostly discussed and developed with malware’s perspective.
+In this paper, we flip this conventional paradigm and discuss anti-emulation techniques in
+terms of protecting Commercial-Off-the-Shelf (COTS) software. Due to the higher requirements
+for usability, existing anti-emulation techniques are inapt for large-scale application vendors. To overcome such problem, we introduce three new techniques in vendors perspective
+for deploying their product. We evaluate the efficacy of our techniques in five aspects: (i)
+fast detection speed, (ii) high accuracy, (iii) low power consumption, (iv) a broad range of
+compatibility, and (v) high cost of bypassing. Based on our experiments, we demonstrate
+that misaligning the vectorization (e.g., Intel SIMD, ARM NEON) can be utilized as a promising anti-emulation technique among the proposed ones. To confirm the effectiveness, we
+applied our technology against 176 real Android devices and various emulators as a test bed.</p>
+:ET

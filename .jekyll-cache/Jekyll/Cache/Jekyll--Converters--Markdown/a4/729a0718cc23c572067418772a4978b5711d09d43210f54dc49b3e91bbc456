@@ -1,0 +1,32 @@
+I"Ò<p>Jonghwan Kim, <strong>Daehee Jang</strong>, Yunjong Jeong, Brent Byunghoon Kang<br />
+<strong>Abstract:</strong> 
+Object Layout Randomization (OLR) is a memory
+randomization approach that makes unpredictable in-object
+memory layout by shuffling and relocating each member fields
+of the object. This defense approach has significant security
+effect for mitigating various types of memory error attacks.
+However, the current state-of-the-art enforces OLR while compile
+time. It makes diversified object layout for each binary, but the
+layout remains equal across the execution. This approach can be
+effective in case the program binary is hidden from attackers.
+However, there are several limitations: (i) the security efficacy
+is built with the premise that the binary is safely undisclosed
+from adversaries, (ii) the randomized object layout is identical
+across multiple executions, and (iii) the programmer should
+manually specify which objects should be affected by OLR. In this
+paper, we introduce Per-allocation Object Layout Randomization
+(POLaR): the first dynamic approach of OLR suited for public
+binaries. The randomization mechanism of POLaR is applied</p>
+
+<!--more-->
+
+<p>at runtime, and the randomization makes unique object layout
+even for the same type of instances. As a result, POLaR achieves
+two previously unmet security primitives. (i) The randomization
+does not break upon the exposure of the binary. (ii) Repeating the
+same attack does not result in deterministic behavior. In addition,
+we also implemented the TaintClass framework based on DFSan
+project to optimize/automate the target object selection process.
+To show the efficacy of POLaR, we use several public open-source
+software and SPEC2006 benchmark suites</p>
+:ET

@@ -1,0 +1,9 @@
+I"ñ<p><strong>Daehee Jang</strong>, Jonghwan Kim, Hojoon Lee, Minjoon Park, Yunjong Jung, Minsu Kim, Brent Byunghoon Kang<br />
+<strong>Abstract:</strong> 
+Heap randomization, in general, has been a well-trodden area; however, the efficacy of byte-granularity randomization has
+never been fully explored as misalignment raises various concerns. Modern heap exploits often abuse the determinism in word
+alignment, and modern CPU architecture better supports unaligned access (since Nehalem). Based on such new developments, we
+conduct an in-depth analysis of evaluating the efficacy of byte-granularity heap randomization in three folds: (i) security effectiveness,
+(ii) performance impact, and (iii) compatibility analysis to measure deployment cost.</p>
+
+:ET

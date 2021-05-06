@@ -1,0 +1,24 @@
+I"�<p>Authors: Hojoon Lee, Hyungon Moon, Ingoo Heo, <strong>Daehee Jang</strong>, Jinsoo Jang, Kihwan Kim, Yunheung Paek<br />
+<!--more-->
+<strong>Abstract:</strong> 
+External hardware-based kernel integrity monitors
+have been proposed to mitigate kernel-level malwares. However,
+the existing external approaches have been limited to monitoring
+the static regions of kernel while the latest rootkits manipulate
+the dynamic kernel objects. To address the issue, we present
+KI-Mon, a hardware-based platform that introduces eventtriggered monitoring techniques for kernel dynamic objects. KIMon advances the bus traffic snooping technique to not only
+detect memory write traffic on the host bus but also filter out
+all but meaningful traffic to generate events. We show how
+kernel invariant verification software can be developed around
+these events, and also provide a set of APIs for additional
+invariant verification development. We also report our findings
+and considerations on the unique challenges for external monitors
+– such as cache coherency, dynamic object tracing. We introduce
+host-side kernel changes that alleviate these issues that involve
+changes in kernel’s object allocation and cache policy control. We
+have built a prototype of KI-Mon on the ARM architecture to
+demonstrate the efficacy of KI-Mon’s event-triggered mechanism
+in terms of performance overhead for the monitored host system
+and the processor usage of the KI-Mon processor.</p>
+
+:ET
