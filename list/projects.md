@@ -12,7 +12,7 @@ show_profile: true
 않을때, 또한 바이너리의 전체 구동환경이 존재하지 않는 상황에서도
 선택적으로 바이너리의 일부분에 대하여 Coverage Feedback 기반의
 Fuzzing 기술을 적용시키는 연구입니다.<br>
-![](http://daehee.kr/select_fuzz.png){:width="700px"}
+![](./select_fuzz.png){:width="100%"}
 
 
 
@@ -23,7 +23,7 @@ Fuzzing 기술을 적용시키는 연구입니다.<br>
 자바스크립트와 연동하여 웹 브라우저 위에서 실행시킬 수 있도록 하는 연구입니다.
 이는 결과적으로 IoT 장비들을 통해서 대규모의 CrowdSourcing 기반 Fuzzing 을
 가능하게 할 것으로 기대됩니다.<br>
-![](http://daehee.kr/wasm.png){:width="700px"}
+![](./wasm.png){:width="100%"}
 
 <br>
 
@@ -31,6 +31,6 @@ Fuzzing 기술을 적용시키는 연구입니다.<br>
 퍼징에 Bitcoin Mining Pool 의 개념을 접합시켜서 공개적으로 누구나
 Fuzzing 프로그램을 가동할 수 있는 (채굴 프로그램처럼) Open 인프라를 개발하고, 
 이러한 시스템이 보안적으로 안전하면서 효율적으로 운영 될 수 있도록 만드는 연구입니다.<br>
-![](http://daehee.kr/fuzzcoin.png){:width="700px"}
+![](./fuzzcoin.png){:width="100%"}
 
 <br>

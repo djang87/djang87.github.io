@@ -1,13 +1,6 @@
----
-title: 'DNS Spoofing Protection System for Wi-Fi Networks'
-tags:
-  - KCI Journal
-  - 한국정보보호학회
-  - Year 2012
----
-Authors: **Daehee Jang**, Yongsu Park<br>
+I"�<p>Authors: <strong>Daehee Jang</strong>, Yongsu Park<br />
 <!--more-->
-**Abstract:**
+<strong>Abstract:</strong>
 DNS(Domain Name Service) is a request/response service based on UDP client-server. DNS spoofing attack is an activity which an attacker manipulates
 DNS traffic, thus creating a fake/false DNS response.
 consequently this attack will lead the client into malicious website. This attack is more threatening in
@@ -19,5 +12,6 @@ system and conducted some experiments. As the result,
 we have concluded the proposal of this paper can
 effectively defend DNS Spoofing from public wireless
 network in terms of maintaining original network
-protocol and client system.
+protocol and client system.</p>
 
+:ET

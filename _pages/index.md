@@ -12,13 +12,13 @@ title: PwnLab (폰랩) 소개
 <br>
 
 **퍼징 (Fuzzing)** 은 소프트웨어의 메모리 보안취약점을 자동탐색하는 기술로서 저희 연구실에서 가장 관심을 가지고 연구하는 분야중 하나입니다. 아래는 AFL 퍼저가 작동하는 모습입니다.<br>
-![American Fuzzy Lop](http://daehee.kr/afl_screen.png)
+![](./afl_screen.png){:width="100%"}
 <br><br>
 메모리 보안취약점은 악성코드가 몰래 침투할 수 있는 통로가 됩니다. 악성코드는 초기단계에서 매우작은 데이터 조각인 **'쉘코드' (Shellcode)** 의 형태로 프로그램에 침투합니다. 아래는 Windows 쉘코드의 예시입니다.<br>
-![American Fuzzy Lop](http://daehee.kr/shellcode.png)
+![](./shellcode.png){:width="100%"}
 <br><br>
 쉘코드에서 시작해서 최종적으로 랜섬웨어과 같은 완전한 악성코드가 침투했을때, 이를 분석하고 조사하기 위해서는 바이너리 분석기술이 필요합니다. 아래는 바이너리 분석을 수행하는 도구의 화면입니다.<br>
-![American Fuzzy Lop](http://daehee.kr/ida.png)
+![](./ida.png){:width="100%"}
 <br><br>
 저희 연구실에서는 위와 같은 전통적인 해킹기술들에 집중하는 편이지만 LLVM, Web Assembly, Block Chain 등과 같은 새로운 기술들을 기존연구와 융합하는 방향으로도 연구를 수행합니다.
 

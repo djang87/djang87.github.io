@@ -1,0 +1,27 @@
+I",
+<p>저희 연구실에서는 컴퓨터 악성코드, 해킹, 및 그와 관련된 다양한 공격/방어 기술들을 연구합니다. 다음은 저희 연구실에서 관심을 가지는 키워드들입니다.</p>
+
+<p><strong><em>#Fuzzing, #Binary Analysis, #Memory Exploitation, #Compiler/LLVM, #OS/Rootkit, #Network Security, #Block Chain, #Web Hacking, #Virtualization/Emulation, #CTF, #Wargame, #Bug Hunting, #Cryptography, #Malware Forensic</em></strong></p>
+
+<p><br /></p>
+
+<p><strong>퍼징 (Fuzzing)</strong> 은 소프트웨어의 메모리 보안취약점을 자동탐색하는 기술로서 저희 연구실에서 가장 관심을 가지고 연구하는 분야중 하나입니다. 아래는 AFL 퍼저가 작동하는 모습입니다.<br />
+<img src="./afl_screen.png" alt="" width="100%" />
+<br /><br />
+메모리 보안취약점은 악성코드가 몰래 침투할 수 있는 통로가 됩니다. 악성코드는 초기단계에서 매우작은 데이터 조각인 <strong>‘쉘코드’ (Shellcode)</strong> 의 형태로 프로그램에 침투합니다. 아래는 Windows 쉘코드의 예시입니다.<br />
+<img src="./shellcode.png" alt="" width="100%" />
+<br /><br />
+쉘코드에서 시작해서 최종적으로 랜섬웨어과 같은 완전한 악성코드가 침투했을때, 이를 분석하고 조사하기 위해서는 바이너리 분석기술이 필요합니다. 아래는 바이너리 분석을 수행하는 도구의 화면입니다.<br />
+<img src="./ida.png" alt="" width="100%" />
+<br /><br />
+저희 연구실에서는 위와 같은 전통적인 해킹기술들에 집중하는 편이지만 LLVM, Web Assembly, Block Chain 등과 같은 새로운 기술들을 기존연구와 융합하는 방향으로도 연구를 수행합니다.</p>
+
+<p><br /></p>
+
+<h2 id="연구원-모집">연구원 모집</h2>
+
+<p>PwnLab (폰랩) 에서는 학부연구원 (단기인턴), 석/박사 대학원생 을 상시 모집하고 있습니다.
+학부생연구원은 주로 특정한 프로젝트에 대해서 집중적이고 단기적인 참여를 하게됩니다.
+석/박사 대학원생은 특정한 프로젝트 하나에 국한되지 않고, 학위 기간동안 다양한 방면으로 지도를 받으며 여러가지 활동을 같이 하게됩니다. 기본적으로는 논문 출판을 목표로 연구를 수행하게되며 연구 활동을 위해서 최소한의 C/Python 코딩 및 Linux 활용능력이 요구됩니다 (CTF/Wargame 에 관심이 있다면 더 좋습니다). 연구원 지원/상담 관련 문의는 djang@sungshin.ac.kr 로 이메일 주시기 바랍니다.</p>
+
+:ET
